@@ -44,31 +44,3 @@ palindromo(cadena);
 
 
 
-
-
-//   // Este paso tambien es muy largo porque no se utiliza la sentencia "break"
-//   var iguales = true;
-//   for(i in letras) {
-//     if(letras[i] == letrasReves[i]) {
-//       // Todo bien
-//     }
-//     else {
-//       // Alguna letra es distinta, por lo que ya no es un palindromo
-//       iguales = false;
-//     }
-//   }
-
-//   if(iguales) {
-//     resultado += " es un palíndromo";
-//   }
-//   else {
-//     resultado += " no es un palíndromo";
-//   }
-
-//   return resultado;
-// }
-
-// alert(palindromo("La ruta nos aporto otro paso natural"));
-// alert(palindromo("Esta frase no se parece a ningun palindromo"));
-//  }
-
