@@ -11,36 +11,46 @@
 
 // js8
 
-var cadena = prompt("Dame la frase");
+// ejercicio 9
+// var cadena = prompt("Dame la frase");
 
 
-function palindromo(cadena){
+// function palindromo(cadena){
 
 
-var cadenaar = cadena.split(" ").join("").toLowerCase();
+// var cadenaar = cadena.split(" ").join("").toLowerCase();
 
 
-var cadenarevez = cadenaar.split("").reverse().join("");
+// var cadenarevez = cadenaar.split("").reverse().join("");
 
 
-if (cadenaar==cadenarevez) {
-	alert("es palindromo")
+// if (cadenaar==cadenarevez) {
+// 	alert("es palindromo")
 
-} else {
-	alert ("no es palindromo ")
-}
+// } else {
+// 	alert ("no es palindromo ")
+// }
 	
-alert(cadenaar)
-alert(cadenarevez)
+// alert(cadenaar)
+// alert(cadenarevez)
 
 
+// }
+
+// palindromo(cadena);
+
+ 
+ 
+// JS10 
+
+var numero = prompt("Dame un numero");
+
+if(numero%2==0){
+	alert("El numero "+ numero +" es par")
 }
-
-palindromo(cadena);
-
- 
- 
-
+else{
+	alert("El numero "+ numero +"  impar")
+}
 
 
 
