@@ -11,7 +11,7 @@
 
 // js8
 
-// ejercicio 9
+// ejercicio 8
 // var cadena = prompt("Dame la frase");
 
 
@@ -41,22 +41,42 @@
 
  
  
-// // JS9 
+// // // JS9 
 
-var numero = prompt("Dame un numero");
+// var numero = prompt("Dame un numero");
 
-function parOimpar(numero){
-		if(numero%2!=0){
-			alert("El numero "+ numero +" es impar")
-		}
-		else{
-			alert("El numero "+ numero +"  par")
-		}
+// function parOimpar(numero){
+// 		if(numero%2!=0){
+// 			alert("El numero "+ numero +" es impar")
+// 		}
+// 		else{
+// 			alert("El numero "+ numero +"  par")
+// 		}
 	
-}
+// }
 
-parOimpar(numero);
-
-
+// parOimpar(numero);
 
 
+// JS10
+
+ var cadena = prompt("ingresa una cadena");
+
+ function caps (cadena){
+
+ 	
+	
+
+	if(cadena==cadena.toLowerCase){
+		alert("La cadena esta en minusculas")
+	} else{
+		if(cadena==cadena.toUpperCase()){
+			alert("La cadena esta en Mayusculas")
+		}else{
+			alert("La cadena esta combinada entre mayusculas y minusculas")
+		}
+	}
+
+
+ }
+caps(cadena);
