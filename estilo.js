@@ -41,16 +41,22 @@
 
  
  
-// JS10 
+// // JS9 
 
 var numero = prompt("Dame un numero");
 
-if(numero%2==0){
-	alert("El numero "+ numero +" es par")
+function parOimpar(numero){
+		if(numero%2!=0){
+			alert("El numero "+ numero +" es impar")
+		}
+		else{
+			alert("El numero "+ numero +"  par")
+		}
+	
 }
-else{
-	alert("El numero "+ numero +"  impar")
-}
+
+parOimpar(numero);
+
 
 
 
