@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 16</title>
+</head>
+<body>
+	<form name="form1"> 
+		<input type="text" name="alpha" onkeypress=" return Alpha(event,this)">
+	</form>
+
+
+</body>
+
+<script type="text/javascript">
+
+	function Alpha(e,target){
+                if (e.keyCode>=65 && e.keyCode<=90 || e.keyCode>=97 && e.keyCode<=122) {
+                    return true;
+                }else{
+                    return false;
+                }
+            }
+	
+
+</script>
+</html>
